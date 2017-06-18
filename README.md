@@ -1,15 +1,14 @@
-# lbryun  
-
-lbry.io macOS StatusBar Daemon  
-
-<a href="https://github.com/sleepdefic1t/lbryun"><img src="https://github.com/sleepdefic1t/lbryun/blob/master/logo.png" alt="lbryun" width="128" height="128">  
-
-
 [![Swift Version](https://img.shields.io/badge/swift-3.1-brightgreen.svg?style=flat)](https://github.com/apple/swift)
 [![Xcode Version](https://img.shields.io/badge/xcode-8.3.2-brightgreen.svg?style=flat)](https://developer.apple.com/xcode/)
 ![Platform](https://img.shields.io/badge/platform-macOS-brightgreen.svg?style=flat)
 [![BUILD](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/sleepdefic1t/lbryun)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-brightgreen.svg?style=flat)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+# lbryun  
+
+lbry.io macOS StatusBar Daemon  
+
+<a href="https://github.com/sleepdefic1t/lbryun"><img src="https://github.com/sleepdefic1t/lbryun/blob/master/logo.png" alt="lbryun" width="128" height="128">  
 
 
 ## Requirements

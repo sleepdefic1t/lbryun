@@ -34,12 +34,16 @@ lbry.io macOS StatusBar Daemon
 
 Created by [sleepdefic1t](http://github.com/sleepdefic1t).
 
-Help me make this better!
+Help me make this better via code or crypto.  
 
 
 donations:  
-LBRY Credits(LBC):  bGkpkJUqb7nXUiuN4GrsfccXBa8u9TkwqY  
-Ethereum(ETH):  0x47019b46aef8a9476ca2d543ed0e7cd3a0674c66
+
+LBRY Credits(LBC):  
+bGkpkJUqb7nXUiuN4GrsfccXBa8u9TkwqY  
+
+Ethereum(ETH):  
+0x47019b46aef8a9476ca2d543ed0e7cd3a0674c66
 
 
 ## License

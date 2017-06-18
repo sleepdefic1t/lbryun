@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F400268C1EF6D0F2008B2F31 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F400268B1EF6D0F2008B2F31 /* LICENSE */; };
+		F41CCBBA1EF68E3100093D9E /* LBRYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41CCBB01EF68E3100093D9E /* LBRYKit.framework */; };
+		F41CCBBF1EF68E3100093D9E /* LBRYKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CCBBE1EF68E3100093D9E /* LBRYKitTests.swift */; };
+		F41CCBC11EF68E3100093D9E /* LBRYKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F41CCBB31EF68E3100093D9E /* LBRYKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41CCBD91EF69C9D00093D9E /* clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = F41CCBD71EF69C9D00093D9E /* clone.sh */; };
+		F41CCBDF1EF6B0EE00093D9E /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CCBDE1EF6B0EE00093D9E /* Shell.swift */; };
+		F41CCBE01EF6B0EE00093D9E /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CCBDE1EF6B0EE00093D9E /* Shell.swift */; };
+		F41CCBE21EF6B13400093D9E /* LBRY.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CCBE11EF6B13400093D9E /* LBRY.swift */; };
+		F41CCBE31EF6B13400093D9E /* LBRY.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CCBE11EF6B13400093D9E /* LBRY.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41CCBBB1EF68E3100093D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41CCBA71EF68E3100093D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41CCBAF1EF68E3100093D9E;
+			remoteInfo = LBRYKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F400268B1EF6D0F2008B2F31 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		F41CCBB01EF68E3100093D9E /* LBRYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBRYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41CCBB31EF68E3100093D9E /* LBRYKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBRYKit.h; sourceTree = "<group>"; };
+		F41CCBB41EF68E3100093D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41CCBB91EF68E3100093D9E /* LBRYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBRYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41CCBBE1EF68E3100093D9E /* LBRYKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBRYKitTests.swift; sourceTree = "<group>"; };
+		F41CCBC01EF68E3100093D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41CCBCE1EF6901100093D9E /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		F41CCBD31EF6980F00093D9E /* dependencies.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = dependencies.sh; sourceTree = "<group>"; };
+		F41CCBD71EF69C9D00093D9E /* clone.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = clone.sh; sourceTree = "<group>"; };
+		F41CCBDA1EF69CC500093D9E /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		F41CCBDE1EF6B0EE00093D9E /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		F41CCBE11EF6B13400093D9E /* LBRY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBRY.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41CCBAC1EF68E3100093D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41CCBB61EF68E3100093D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CCBBA1EF68E3100093D9E /* LBRYKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41CCBA61EF68E3100093D9E = {
+			isa = PBXGroup;
+			children = (
+				F41CCBB21EF68E3100093D9E /* LBRYKit */,
+				F41CCBBD1EF68E3100093D9E /* LBRYKitTests */,
+				F41CCBB11EF68E3100093D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41CCBB11EF68E3100093D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41CCBB01EF68E3100093D9E /* LBRYKit.framework */,
+				F41CCBB91EF68E3100093D9E /* LBRYKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41CCBB21EF68E3100093D9E /* LBRYKit */ = {
+			isa = PBXGroup;
+			children = (
+				F41CCBB31EF68E3100093D9E /* LBRYKit.h */,
+				F41CCBE11EF6B13400093D9E /* LBRY.swift */,
+				F41CCBDE1EF6B0EE00093D9E /* Shell.swift */,
+				F41CCBCD1EF6900600093D9E /* scripts */,
+				F41CCBB41EF68E3100093D9E /* Info.plist */,
+				F400268B1EF6D0F2008B2F31 /* LICENSE */,
+			);
+			path = LBRYKit;
+			sourceTree = "<group>";
+		};
+		F41CCBBD1EF68E3100093D9E /* LBRYKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41CCBBE1EF68E3100093D9E /* LBRYKitTests.swift */,
+				F41CCBC01EF68E3100093D9E /* Info.plist */,
+			);
+			path = LBRYKitTests;
+			sourceTree = "<group>";
+		};
+		F41CCBCD1EF6900600093D9E /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F41CCBCE1EF6901100093D9E /* build.sh */,
+				F41CCBD31EF6980F00093D9E /* dependencies.sh */,
+				F41CCBD71EF69C9D00093D9E /* clone.sh */,
+				F41CCBDA1EF69CC500093D9E /* install.sh */,
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F41CCBAD1EF68E3100093D9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CCBC11EF68E3100093D9E /* LBRYKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F41CCBAF1EF68E3100093D9E /* LBRYKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41CCBC41EF68E3100093D9E /* Build configuration list for PBXNativeTarget "LBRYKit" */;
+			buildPhases = (
+				F41CCBAB1EF68E3100093D9E /* Sources */,
+				F41CCBAC1EF68E3100093D9E /* Frameworks */,
+				F41CCBAD1EF68E3100093D9E /* Headers */,
+				F41CCBAE1EF68E3100093D9E /* Resources */,
+				F41CCBCF1EF6928400093D9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBRYKit;
+			productName = LBRYKit;
+			productReference = F41CCBB01EF68E3100093D9E /* LBRYKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F41CCBB81EF68E3100093D9E /* LBRYKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41CCBC71EF68E3100093D9E /* Build configuration list for PBXNativeTarget "LBRYKitTests" */;
+			buildPhases = (
+				F41CCBB51EF68E3100093D9E /* Sources */,
+				F41CCBB61EF68E3100093D9E /* Frameworks */,
+				F41CCBB71EF68E3100093D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41CCBBC1EF68E3100093D9E /* PBXTargetDependency */,
+			);
+			name = LBRYKitTests;
+			productName = LBRYKitTests;
+			productReference = F41CCBB91EF68E3100093D9E /* LBRYKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41CCBA71EF68E3100093D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "☠️👽🤖👻";
+				TargetAttributes = {
+					F41CCBAF1EF68E3100093D9E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PX2V2LNF9X;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					F41CCBB81EF68E3100093D9E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PX2V2LNF9X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F41CCBAA1EF68E3100093D9E /* Build configuration list for PBXProject "LBRYKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F41CCBA61EF68E3100093D9E;
+			productRefGroup = F41CCBB11EF68E3100093D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41CCBAF1EF68E3100093D9E /* LBRYKit */,
+				F41CCBB81EF68E3100093D9E /* LBRYKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41CCBAE1EF68E3100093D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F400268C1EF6D0F2008B2F31 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41CCBB71EF68E3100093D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CCBD91EF69C9D00093D9E /* clone.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F41CCBCF1EF6928400093D9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh $PROJECT_DIR/LBRYKit/build.sh";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41CCBAB1EF68E3100093D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CCBE21EF6B13400093D9E /* LBRY.swift in Sources */,
+				F41CCBDF1EF6B0EE00093D9E /* Shell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41CCBB51EF68E3100093D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CCBE01EF6B0EE00093D9E /* Shell.swift in Sources */,
+				F41CCBE31EF6B13400093D9E /* LBRY.swift in Sources */,
+				F41CCBBF1EF68E3100093D9E /* LBRYKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41CCBBC1EF68E3100093D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41CCBAF1EF68E3100093D9E /* LBRYKit */;
+			targetProxy = F41CCBBB1EF68E3100093D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F41CCBC21EF68E3100093D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F41CCBC31EF68E3100093D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F41CCBC51EF68E3100093D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LBRYKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.darg.LBRYKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F41CCBC61EF68E3100093D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LBRYKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.darg.LBRYKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F41CCBC81EF68E3100093D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = LBRYKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.darg.LBRYKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F41CCBC91EF68E3100093D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = LBRYKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.darg.LBRYKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41CCBAA1EF68E3100093D9E /* Build configuration list for PBXProject "LBRYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41CCBC21EF68E3100093D9E /* Debug */,
+				F41CCBC31EF68E3100093D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41CCBC41EF68E3100093D9E /* Build configuration list for PBXNativeTarget "LBRYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41CCBC51EF68E3100093D9E /* Debug */,
+				F41CCBC61EF68E3100093D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41CCBC71EF68E3100093D9E /* Build configuration list for PBXNativeTarget "LBRYKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41CCBC81EF68E3100093D9E /* Debug */,
+				F41CCBC91EF68E3100093D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41CCBA71EF68E3100093D9E /* Project object */;
+}

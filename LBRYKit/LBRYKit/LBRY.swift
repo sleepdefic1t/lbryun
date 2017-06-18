@@ -2,7 +2,7 @@
 //  LBRY.swift
 //  LBRYKit
 //
-//  Created by simon on 6/18/17.
+//  Created by sleepdeficit.
 //  Copyright © 2017 ☠️👽🤖👻. All rights reserved.
 //
 
@@ -31,23 +31,11 @@ public enum LBRY {
     
     public enum Daemon {
         
-        static public func startDaemon() {  print("startingDaemon");
-            
-            Shell.command(Files.daemon, ["--verbose"])
-            
-        }
+        static public func startDaemon() { Shell.command(Files.daemon, ["--verbose"]) }
         
-        static public func stopDaemon() {   print("stoppingDaemon");
-            
-            Shell.command(Files.lbrynetCli, ["daemon_stop"])
-            
-        }
+        static public func stopDaemon() { Shell.command(Files.lbrynetCli, ["daemon_stop"]) }
         
-        static public func checkDaemon() {  print("testingDaemon"); sleep(1)
-            
-            Shell.command(Files.lbrynetCli, ["status"])
-
-        }
+        static public func checkDaemon() { Shell.command(Files.lbrynetCli, ["status"]) }
         
     }
     

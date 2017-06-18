@@ -11,6 +11,13 @@ lbry.io macOS StatusBar Daemon
 <a href="https://github.com/sleepdefic1t/lbryun"><img src="https://github.com/sleepdefic1t/lbryun/blob/master/logo.png" alt="lbryun" width="128" height="128">  
 
 
+## TODO
+
+- debug outuput from app
+- make it launch the UI
+- FBGM like Biggie  
+
+
 ## Requirements
 
 - macOS Sierra

@@ -1,3 +1,9 @@
+# ** **this repo no longer maintained** **
+***ALWAYS*** **assume there are unpatched vulnerabilities in non-maintained repositories.**  
+That means _don't_ use THIS for transactions, only for learning & reference.
+
+-----
+
 [![Swift Version](https://img.shields.io/badge/swift-3.1-brightgreen.svg?style=flat)](https://github.com/apple/swift)
 [![Xcode Version](https://img.shields.io/badge/xcode-8.3.2-brightgreen.svg?style=flat)](https://developer.apple.com/xcode/)
 ![Platform](https://img.shields.io/badge/platform-macOS-brightgreen.svg?style=flat)
